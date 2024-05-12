@@ -58,6 +58,7 @@ $  git clone https://github.com/Prateekjha09/DataEngineeringCaseStudy.git
 ```
 
 The folder structuring will look something like this:
+
 ![alt text](image-2.png)
 
 <b>logGeneration:</b> 
@@ -103,8 +104,8 @@ Cheers
 - Prateek Jha
 
 #### Update - 2023/05/12
-- Added a new folder named "uiTemplate" which utilizes HTML, CSS and javaScript for creating a UI to perform CRUD operations for different tasks 
-- Also , I'm currently thinking to use Node.js with express.js and snowflake to store all the operations for different tasks
+- Added a new folder named "uiTemplate" which utilizes HTML, CSS and javaScript for creating a UI to perform CRUD operations for different tasks.
+- Also , I'm currently thinking to use Node.js with express.js and snowflake to store all the operations for different tasks.
 
 
 
