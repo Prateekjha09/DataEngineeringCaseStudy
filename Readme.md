@@ -58,7 +58,7 @@ $  git clone https://github.com/Prateekjha09/DataEngineeringCaseStudy.git
 ```
 
 The folder structuring will look something like this:
-![alt text](image.png)
+![alt text](image-2.png)
 
 <b>logGeneration:</b> 
 This folder will contain logs which will be generated for our scheduled data pipeline and a new file will be generated everyday for the same.
@@ -80,7 +80,7 @@ This script contains stored procedure and task creation script which is to be ru
 
 2. connection.py -- contains functions for opening and closing connections to databases based on decided configuration.
 
-3. rawDataIngestion.py -- contains logic for fetching raw data from original sources and storing it in snowflake DB
+3. rawDataIngestion.py -- contains logic for fetching raw data from original sources and storing it in snowflake DB along with data validation for different sources implemented.
 
 4. ProcessedDataIngestion.py -- consists of a simple snowflake task being triggered on an ad hoc basis, which in turn contains a stored procedure which runs "MERGE" statements between staging and final tables which insert and update data accordingly
 
@@ -101,6 +101,10 @@ Cheers
 
 ## Contributors
 - Prateek Jha
+
+#### Update - 2023/05/12
+- Added a new folder named "uiTemplate" which utilizes HTML, CSS and javaScript for creating a UI to perform CRUD operations for different tasks 
+- Also , I'm currently thinking to use Node.js with express.js and snowflake to store all the operations for different tasks
 
 
 

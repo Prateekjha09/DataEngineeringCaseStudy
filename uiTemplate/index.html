@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Engineering Task Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Data Engineering Task Management</h1>
+    
+    <!-- Form for adding new task -->
+    <form id="addTaskForm">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description"></textarea>
+
+      <label for="status">Status:</label>
+      <select id="status" name="status">
+        <option value="todo">To Do</option>
+        <option value="inprogress">In Progress</option>
+        <option value="completed">Completed</option>
+      </select>
+
+      <button type="submit">Add Task</button>
+    </form>
+
+    <!-- Task list -->
+    <div id="taskList"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
